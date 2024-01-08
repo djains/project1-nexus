@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form >
+    
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <div class="form" action="#">
+          <h1>Create Account</h1>
+          <hr />
+          <input type="text" name="a" placeholder="ID" />
+          <input class="text-primary" name="b" type="text" placeholder="Name"  />
+          <input type="password" name="c" placeholder="Password" />
+          <hr />
+
+          <button  CssClass="button" id="Button3">Sign Up</button>
+        </div>
+      </div>
+
+
+      <div class="form-container sign-in-container">
+        <div class="form" action="#">
+          <h1>Login Form</h1>
+          <p>Enter Username and Password to Login </p>
+          <input type="text" name="txt" placeholder="User Name" required />
+          <input type="password" name="Password" placeholder="Password"required/>
+          <hr />
+          <button  class="button" id="Button2">Login</button>
+          <hr />
+        </div>
+      </div>
+
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>
+              To keep connected with us please Sign In with your personal info
+            </p>
+            <br />
+            <p>Wanna Go Back To Login Page Again Click Below</p>
+            <button class="ghost" id="signIn">Login</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>HEY SIGN UP PAGE THIS SIDE</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </form>
+  <script src="script.js"></script>
+  </body>
+</html>
